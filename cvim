@@ -8,4 +8,9 @@
 
 file=`echo $1|cut -d: -f1`
 pointer=`echo $1|cut -d: -f2`
+if [[ $1 != *:* ]] || [[ $pointer -le 0 ]]
+  then
+    pointer=1
+fi
+
 vim $file +$pointer
