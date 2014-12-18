@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Usage as follows
+# Usage
+# -----
 # cvim branding/templates/login.tmpl:29
 #
 # This will take you directly to line number 29
