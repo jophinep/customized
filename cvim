@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Usage as follows
+# cvim branding/templates/login.tmpl:29
+#
+# This will take you directly to the line number 
+# specified after colon (:)
+
+file=`echo $1|cut -d: -f1`
+pointer=`echo $1|cut -d: -f2`
+vim $file +$pointer
