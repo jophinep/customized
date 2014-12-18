@@ -3,8 +3,7 @@
 # Usage as follows
 # cvim branding/templates/login.tmpl:29
 #
-# This will take you directly to the line number 
-# specified after colon (:)
+# This will take you directly to line number 29
 
 file=`echo $1|cut -d: -f1`
 pointer=`echo $1|cut -d: -f2`
