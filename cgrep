@@ -1,13 +1,13 @@
 # This should be added in ~/.bashrc file
 #
-# Usage like: cgrep login form
+# Usage
+# -----
+# cgrep loginform
+# cgrep "login form"
 #
-# Will print output as follows
-#
+# Sample Output
+# -------------
 # branding/js/branding.js:674:        loginform: {
 # branding/js/cubit.js:5:  if (document.getElementById('loginform')) {
-# branding/js/cubit.js:6:    document.getElementById('loginform').loginID.focus();
-# branding/templates/login.tmpl:29:      <form action="$this_url" method="post" id="loginform">
-# installation-support/default-data/branding/cubit/css/inst.css:977:form#loginform {
 
 cgrep() { grep -RHn "$@" *; }
