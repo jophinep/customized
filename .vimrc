@@ -3,8 +3,7 @@ highlight OverLength ctermbg=green ctermfg=black guibg=#592929
 au FileType python,ruby match OverLength /\%81v.\+/
 
 " Vertical and horizontal lines in vim (used for checking alignmmnt)
-set cursorline
-set cursorcolumn
+set cursorline cursorcolumn
 
 " Used for highlighting empty whitespaces
 2match ErrorMsg '\s\+$'
